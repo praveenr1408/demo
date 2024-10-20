@@ -1,7 +1,7 @@
 import machine
 import time
 
-led = machine.Pin(2, machine.Pin.OUT)  # Assuming GPIO2 is the LED pin
+led = machine.Pin(2, machine.Pin.OUT)  
 
 def blink_led():
     while True:
